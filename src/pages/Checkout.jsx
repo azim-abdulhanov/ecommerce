@@ -33,12 +33,11 @@ const Checkout = () => {
 	}
 
 	return (
-		<div className='max-w-2xl mx-auto py-12 px-5'>
+		<section className='max-w-2xl mx-auto px-5 py-20'>
+			<h2 className='text-2xl md:text-4xl font-bold mb-10 text-center'>
+				Buyurtmachi ma'lumotlari
+			</h2>
 			<form className='space-y-4' onSubmit={handleSubmit}>
-				<h2 className='text-4xl font-bold mb-10 text-center'>
-					Buyurtmachi ma'lumotlari
-				</h2>
-
 				<div className='flex flex-col gap-1'>
 					<label
 						className='text-sm font-medium text-gray-800'
@@ -113,7 +112,7 @@ const Checkout = () => {
 					Yuborish
 				</button>
 			</form>
-		</div>
+		</section>
 	)
 }
 

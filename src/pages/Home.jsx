@@ -1,3 +1,13 @@
 import Products from '../components/features/Products'
-const Home = () => <Products />
+import Hero from '../components/layouts/Hero'
+
+const Home = () => {
+	return (
+		<>
+			<Hero />
+			<Products />
+		</>
+	)
+}
+
 export default Home
